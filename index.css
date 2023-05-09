@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("to_do_header.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:  hsl(182, 24%, 24%);
+    border-bottom: 0.5rem solid hsl(182, 24%, 24%);
+}
+.day_info {
+    background-color: rgba(255,161,51,255);
+    height: 20rem;
+    width: 50%;
+    display: flex;
+    color: hsl(182, 24%, 24%);
+    flex-direction: column;
+    margin: auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.day_date {
+    display: flex;
+    margin-left: 1rem;
+    color: hsl(182, 24%, 24%);
+}
+.day_title {
+    margin-top: 0;
+    margin-left: 2rem;
+}
+.day_tasks {
+    margin-top: 0;
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+.tasks {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+.tasks p {
+    margin: 0;
+}
+.tasks div {
+    display: flex;
+    margin: 0;
+}
+.tasks .delete {
+    margin-left: 0.5rem;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.further_options {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+}
+button {
+    background-color: hsl(124, 54%, 44%);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    color: #ffffff;
+    font-weight: 700;
+}
